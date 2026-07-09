@@ -1,0 +1,118 @@
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #d4f8e8 0%, #fbff00 50%, #e8fff2 100%);
+    background-attachment: fixed;
+    color: #10362a;
+    line-height: 1.7;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 0px 10%;
+}
+
+h1, h2, h3 {
+    font-family: "Anton", sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 0px #111211, 3px 3px 0px #2ecc8f;
+}
+
+/* header */
+header {
+    background: linear-gradient(90deg, #fff83700, #ffffff00);
+    padding: 0px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 22px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #10362a;
+    font-weight: 700;
+    font-size: 0.9rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 6px 14px;
+    border-radius: 30px;
+    border: 2px solid #eeff00;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0a8754;
+    color: #fff;
+    transform: scale(1.08) rotate(-2deg);
+}
+
+/* =====body===== */
+
+/* HOME */
+.h2{
+    font-size: clamp(270px, 50vw, 280px);
+    color: white;
+    font-weight: 900;
+    text-shadow: 8px 8px 0 black;
+    margin: 0;
+    text-align:justify;
+}
+
+/* ABOUT */
+.about {
+   font-size: clamp(20px, 100vw, 80px);
+    color: white;
+    font-weight:900;
+    text-shadow: 1px 1px 0 black;
+    margin: 0;
+    text-align:center; 
+}
+p {
+    max-width: 750px;
+    margin: 0 auto 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 12px 18px;
+    border-radius: 14px;
+    border: 2px dashed #2ecc8f;
+}
+
+#about strong {
+    color: #0a8754;
+}
+
+#about q {
+    color: #047857;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* PROFILE */
+
+.profile-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:70px;
+    flex-wrap:wrap;
+}
+
+.profile-photo{
+    position:relative;
+    width:320px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
